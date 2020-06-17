@@ -1,0 +1,55 @@
+.select-item input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.form-group {
+  font-size: 14px;
+  label {
+    font-weight: semibold;
+  }
+  input, select { margin-top: 5px; padding-left: 0.5rem; line-height: 2rem; border-radius: 3px; min-height: 34px; }
+}
+
+
+.loading-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 9999;
+  .loading-img {
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    margin: auto;
+  }
+}
+
+
+table { 
+  thead {
+    tr {
+      background-color: #eee;
+      th {
+
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      &:nth-child(odd) { background-color: #fff; }
+      &:nth-child(even) { background-color: #eee; }
+      td {
+
+      }
+    }
+  }
+  td, th {
+    border: 1px solid #ababab;
+    padding: 5px;
+    &:last-child { min-width: 100px; }
+  }
+
+
+
+}
